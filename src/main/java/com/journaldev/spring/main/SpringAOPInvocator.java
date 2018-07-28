@@ -8,8 +8,9 @@ import com.journaldev.spring.service.EmployeeService;
 public class SpringAOPInvocator {
 
 	private SpringAOPInvocator() {
-		
+
 	}
+
 	public static void main(String argz[]) throws Exception {
 		try (ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext("AOPConfigFile.xml")) {
 			Employee emp = (Employee) appContext.getBean("employee");
