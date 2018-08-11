@@ -30,7 +30,4 @@
 		class="com.journaldev.spring.aspect.EmployeeAroundAspect" />
 	<bean name="employeeAnnotationAspect"
 		class="com.journaldev.spring.aspect.EmployeeAnnotationAspect" />
-
-
-
 </beans>
